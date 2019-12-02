@@ -1,0 +1,80 @@
+html, body{
+    height:100%;
+    overflow: hidden;
+    background-color: #8000ff;
+
+  }
+
+.navbar-brand,
+.navbar-nav a {
+  font-family: 'Orbitron', sans-serif!important;
+}
+
+.jumbotron{
+  font-family: 'Orbitron', sans-serif!important;
+  background-image: url(../images/ps.png);
+ background-repeat: no-repeat;
+ background-color: grey;
+ background-size: cover;
+}
+
+
+
+h2{
+  color:white;
+  font-weight: 400;
+}
+
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.lead{
+  color: white;
+}
+
+h5{
+  color: orange;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari help */
+    -webkit-animation-duration: 4s; /* Safari help */
+    -webkit-animation-direction: reverse; /* Safari help */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+
+/*For safari  performance*/
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:orange; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:orange; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.btn {
+  width:200px;
+  display:inline-block;
+  overflow: auto;
+  white-space: nowrap;
+  margin:0px auto;
+  border:1px red solid;
+}
