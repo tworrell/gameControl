@@ -12,12 +12,27 @@
   html{
     background-color: #15a590;
   }
-  h2{
+  h2, p{
     color: #990671;
+    text-align: center;
+    align-items: center;
   }
 canvas {
     border:1px solid #d3d3d3;
     background-color: #f1f1f1;
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+    margin: auto;
+}
+button{
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+    margin: auto;
 }
 
 div{
@@ -146,12 +161,13 @@ function accelerate(n) {
 }
 </script>
 <br>
-<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+
   <h2>Welcome to my secret game!</h2>
 <p>Use the ACCELERATE button to stay in the air, while avoiding the obstacles.</p>
 <p>How long can you avoid the obstacles?</p>
 <div>
   <h3>You've made it to the end! Thanks for visiting. :) -Tara. </h3>
+  <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 </div>
 </body>
 </html>
